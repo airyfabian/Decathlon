@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<result>
+    <athlete>
+        <name>John Smith</name>
+        <positionFinal>0</positionFinal>
+        <totalScore>4200.00</totalScore>
+        <event>
+            <nameEvent>100 Mts</nameEvent>
+            <result>12.61</result>
+            <score>536</score>
+        </event>
+        <event>
+            <nameEvent>Long Jump</nameEvent>
+            <result>5.00</result>
+            <score>382</score>
+        </event>
+        <event>
+            <nameEvent>Shot Put</nameEvent>
+            <result>9.22</result>
+            <score>439</score>
+        </event>
+        <event>
+            <nameEvent>High Jump</nameEvent>
+            <result>1.50</result>
+            <score>389</score>
+        </event>
+        <event>
+            <nameEvent>100 Mts</nameEvent>
+            <result>60.39</result>
+            <score>400</score>
+        </event>
+        <event>
+            <nameEvent>Hurdles 110 mts</nameEvent>
+            <result>16.43</result>
+            <score>685</score>
+        </event>
+        <event>
+            <nameEvent>Discus Throw</nameEvent>
+            <result>21.60</result>
+            <score>302</score>
+        </event>
+        <event>
+            <nameEvent>Pole Vault</nameEvent>
+            <result>2.60</result>
+            <score>264</score>
+        </event>
+        <event>
+            <nameEvent>Javalin Throw</nameEvent>
+            <result>35.81</result>
+            <score>382</score>
+        </event>
+        <event>
+            <nameEvent>1500 mts</nameEvent>
+            <result>5.25.72</result>
+            <score>421</score>
+        </event>
+    </athlete>
+</result>
