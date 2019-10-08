@@ -1,4 +1,4 @@
-# Decathlon
+﻿# Decathlon
 In the following program, I will show you my answer to the next test: “Your task is to write a Java program that would calculate the results of a Decathlon competition”.
 
 I considered this: 
@@ -22,7 +22,7 @@ You must send in the program two parameters: input and output, in the input you 
  
 Example 
  
-mvn exec:java -Dexec.mainClass="com.kuehne_nagel.decathlon.Decathlon" -Dexec.args="C:\\eclipse\\personales\\decathlon\\ results.csv C:\\eclipse\\personales\\decathlon\\" 
+mvn exec:java -Dexec.mainClass="com.personal.decathlon.Decathlon" -Dexec.args="C:\\eclipse\\personales\\decathlon\\ results.csv C:\\eclipse\\personales\\decathlon\\" 
  
 The order to read the file is: 
  
