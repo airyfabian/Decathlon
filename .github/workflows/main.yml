@@ -16,7 +16,8 @@ jobs:
     - name: Configurar Java
       uses: actions/setup-java@v2
       with:
-        java-version: '8'
+        java-version: 8
+        distribution: 0
 
     - name: Construir con Maven
       run: mvn clean install 
