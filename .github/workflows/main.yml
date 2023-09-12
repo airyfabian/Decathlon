@@ -16,16 +16,5 @@ jobs:
         distribution: 'adopt'
     - name: Construir con Maven
       run: mvn clean install -DskipTests
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Configurar Java
-      uses: actions/setup-java@v2
-      with:
-        java-version: 8
-        distribution: 'adopt'
     - name: Ejecutar Test
       run: mvn test
-
-    # Puedes agregar pasos adicionales aquí, como pruebas o implementación
