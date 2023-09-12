@@ -1,0 +1,24 @@
+name: Java CI/CD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v2
+
+    - name: Configurar Java
+      uses: actions/setup-java@v2
+      with:
+        java-version: '8'
+
+    - name: Construir con Maven
+      run: mvn clean install 
+
+    # Puedes agregar pasos adicionales aquí, como pruebas o implementación
