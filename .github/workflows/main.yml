@@ -9,6 +9,10 @@ jobs:
     steps:
     - name: Checkout código
       uses: actions/checkout@v2
+    - name: "Ver variables github"
+      run: |
+        echo 'Variables de GitHub '
+        echo ${{github}}
     - name: Configurar Java
       uses: actions/setup-java@v2
       with:
