@@ -12,7 +12,7 @@ jobs:
     - name: "Ver variables github"
       run: |
         echo 'Variables de GitHub '
-        echo ${{github}}
+        echo '${{ toJson(github) }}' > github_info.json
     - name: Configurar Java
       uses: actions/setup-java@v2
       with:
